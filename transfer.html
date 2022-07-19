@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link href='https://fonts.googleapis.com/css?family=Amita' rel='stylesheet'>
+    <link rel="stylesheet" href="trans.css">
+    
+</head>
+<body background="bg.webp" style="background: local no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;" >
+    <center>
+    <h1>Account Sumarry</h1>
+</center>
+
+
+        <section >
+
+            <div style="float: left; padding-left: 100px;" >
+                <h2 >Total Amount Avaliable</h2>
+                <h1 >Rs.<span id="total-amount">2500</span></h1>
+            </div>
+
+            <div style="float: right; padding-right: 100px;">
+                <h2 >Transferd Amount</h2>
+                <h1 >Rs.<span id="transfer-amount">00</span></h1>
+            </div>
+        </section>
+
+
+        <br>
+        <br><br><br><br><br>
+        <br><br>
+        <center>        <h4>Transction</h4>
+        </center>
+        <form>
+
+        
+            <table style="margin-left: 75px;">
+                
+                <tr>
+           <td class="pd"> <label for="name"><b>First Name:</b></label> </td>
+           <td class="pd"><input placeholder="First Name" type="text" size="50" required> </td>
+        
+        
+            <td class="pd2"> <label for="name"><b>Last Name:</b></label> </td>
+           <td class="pd2"> <input placeholder="Last Name" type="text" size="50" required> </td>
+        </tr>
+
+        <tr>
+            <td class="pd"> <label for="name"><b>Account Number</b></label> </td>
+            <td class="pd"><input placeholder="Acc number" type="text" size="50" required id="transfer-acc"> </td>
+         
+         
+             <td class="pd2"> <label for="name"><b>Ammount</b></label> </td>
+            <td class="pd2"> <input placeholder="Amount" type="text" size="50" required id="transfer-value"> </td>
+         </tr>
+        
+        
+        </table>
+        </form>
+        
+         <center>
+                <section style="padding-top: 30px;">
+                  <div>
+
+                <button id="transfer-btn">Transfer Money</button>
+            </div>
+     
+        </section>
+    </center>
+
+    <!-- external javaScript -->
+    <script src="trans.js"></script>
+</body>
+</html>

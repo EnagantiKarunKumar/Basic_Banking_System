@@ -1,0 +1,86 @@
+
+*{
+        font-family: 'Amita';font-size: 22px;
+        color: white;
+}
+
+.navlist {
+    font-size: 30px;
+    position: absolute;
+    width: 100%;
+}
+    
+.navlist a {
+    float:left;
+    display: block;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navlist-right{
+    float:right;
+}
+
+.navlist a:hover {
+    border-radius: 25px;
+    color: goldenrod;
+}
+#logo{
+    float: right;
+    padding: 5px;
+    padding-right: 50px;
+
+    height: 50px;
+    width: 90px;
+}
+table, th, td {
+    border: 1px solid gold;
+    font-family: 'Amita';font-size: 22px;
+    border-spacing: 2px;
+    text-align: center;
+    column-width: 100px;
+
+ }
+ tr:nth-child(even) {
+    background-color: black;
+}
+
+
+
+body {
+  margin: 0;
+  
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+
+img {
+  max-width: 100%;
+  display: none;
+  box-shadow: 10px 10px 20px 0 rgb(234, 234, 234);
+}
+
+img.active {
+  display: block;
+  animation: fadeImg 0.8s;
+}
+
+
+@keyframes fadeImg {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
